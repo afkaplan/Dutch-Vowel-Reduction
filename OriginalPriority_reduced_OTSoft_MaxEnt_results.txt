@@ -1,0 +1,196 @@
+Result of Applying Maximum Entropy to OriginalPriority_reduced_OTSoft.xlsx
+
+
+OTSoft 2.6, release date 4/11/2021
+
+9-30-2022, 12:32 p.m.
+
+
+For more detailed examination of results, please use a spreadsheet program to open the file
+TabbedOutput.txt, located in the folder FilesForOriginalPriority_reduced_OTSoft.
+
+
+1. Constraints and weights
+
+
+  50.000	DEP-MF
+  50.000	Onset-PWd
+   2.308	Priority
+   3.594	*Duplex-MinPPh
+  50.000	CrispEdge(PWd)
+  50.000	*[+son]Periph
+   0.360	Dep
+   1.000	*CliticInPWd
+
+
+2. Inputs, candidates, input frequencies, input proportions, predicted probabilities
+
+Inputs        Candidates  Input frequencies  Input proportions  Predicted probabilities
+(a)l=arspand  l=arspand           1                  1.000               0.910
+              al=arspand          0                  0.000               0.090
+              am=arspand          0                  0.000               0.000
+
+
+Inputs    Candidates  Input frequencies  Input proportions  Predicted probabilities
+(a)l=vad    al=vad            1                  1.000               1.000
+            l=vad             0                  0.000               0.000
+            am=vad            0                  0.000               0.000
+
+
+Inputs      Candidates  Input frequencies  Input proportions  Predicted probabilities
+al=t=la=da   at=la=da           1                  1.000               0.990
+             am=la=da           0                  0.000               0.000
+            l=t=la=da           0                  0.000               0.000
+            al=t=la=da          0                  0.000               0.010
+
+
+Inputs     Candidates  Input frequencies  Input proportions  Predicted probabilities
+al=t=di:z   at=di:z            1                  0.500               0.735
+           al=t=di:z           1                  0.500               0.265
+            am=di:z            0                  0.000               0.000
+            l=t=di:z           0                  0.000               0.000
+
+
+Inputs          Candidates    Input frequencies  Input proportions  Predicted probabilities
+al=t=arspand   al=t=arspand           1                  1.000               1.000
+               a.{t=arspand           0                  0.000               0.000
+               {a.t=arspand           0                  0.000               0.000
+               a.t={arspand           0                  0.000               0.000
+              al=t.={arspand          0                  0.000               0.000
+               l=t=arspand            0                  0.000               0.000
+
+
+Inputs     Candidates  Input frequencies  Input proportions  Predicted probabilities
+al=al=vad  al=le=vad           1                  1.000               0.388
+           al=al=vad           0                  0.000               0.055
+            al=l=vad           0                  0.000               0.000
+            l=le=vad           0                  0.000               0.000
+            l=al=vad           0                  0.000               0.556
+           am=le=vad           0                  0.000               0.000
+
+
+Inputs      Candidates   Input frequencies  Input proportions  Predicted probabilities
+al=m=al=da   am=al={da           1                  1.000               0.921
+            al=m=al=da           0                  0.000               0.009
+            al=um=al=da          0                  0.000               0.006
+            l=um=al=da           0                  0.000               0.064
+
+
+Inputs     Candidates  Input frequencies  Input proportions  Predicted probabilities
+al=m=al=a   am=[{l=a           1                  1.000               0.929
+           al=m={l=a           0                  0.000               0.000
+           al=um={l=a          0                  0.000               0.006
+           l=um={l=a           0                  0.000               0.064
+           am=a.[{l=a          0                  0.000               0.000
+
+
+Inputs        Candidates  Input frequencies  Input proportions  Predicted probabilities
+(a)l=um=di:z  l=um=di:z           1                  0.500               0.669
+               am=di:z            1                  0.500               0.265
+               l=m=di:z           0                  0.000               0.000
+              al=um=di:z          0                  0.000               0.067
+              al=m=di:z           0                  0.000               0.000
+
+
+Inputs         Candidates   Input frequencies  Input proportions  Predicted probabilities
+al=al=abraTa  al=l=abraTa           1                  1.000               1.000
+              al=al=abraTa          0                  0.000               0.000
+              at=al=abraTa          0                  0.000               0.000
+              l=al=abraTa           0                  0.000               0.000
+               l=l=abraTa           0                  0.000               0.000
+
+
+Probability of data = -4.574883
+
+
+3. Weights Found (in sorted order)
+
+50.000    50.000   DEP-MF
+50.000    50.000   Onset-PWd
+50.000    50.000   CrispEdge(PWd)
+50.000    50.000   *[+son]Periph
+3.594     3.594   *Duplex-MinPPh
+2.308     2.308   Priority
+1.000     1.000   *CliticInPWd
+0.360     0.360   Dep
+
+4. Tableaux
+
+Input         Candidate   Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                                 50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+(a)l=arspand  l=arspand    3.308    0.037     0.910     1.000                                                                         *           *
+              al=arspand   5.616    0.004     0.090     0.000                                                                         **          *
+              am=arspand  54.594    0.000     0.000     0.000      *                                                     *                        *
+
+Input     Candidate  Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                            50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+(a)l=vad   al=vad     4.616    0.010     1.000     1.000                                                                         **
+            l=vad    53.308    0.000     0.000     0.000                                             *                           *           *
+           am=vad    53.594    0.000     0.000     0.000      *                                                     *
+
+Input       Candidate   Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                               50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=t=la=da   at=la=da    0.000    1.000     0.990     1.000
+             am=la=da   50.000    0.000     0.000     0.000      *
+            l=t=la=da   52.308    0.000     0.000     0.000                                             *                           *
+            al=t=la=da   4.616    0.010     0.010     0.000                                                                         **
+
+Input      Candidate  Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                             50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=t=di:z   at=di:z    3.594    0.027     0.735     0.500                                                            *
+           al=t=di:z   4.616    0.010     0.265     0.500                                                                         **
+            am=di:z   53.594    0.000     0.000     0.000      *                                                     *
+           l=t=di:z   52.308    0.000     0.000     0.000                                             *                           *
+
+Input           Candidate     Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                                     50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=t=arspand   al=t=arspand    5.616    0.004     1.000     1.000                                                                         **          *
+               a.{t=arspand   54.594    0.000     0.000     0.000                             *                              *                        *
+               {a.t=arspand   54.594    0.000     0.000     0.000                *                                           *                        *
+               a.t={arspand   53.594    0.000     0.000     0.000                *                                           *
+              al=t.={arspand  54.616    0.000     0.000     0.000                *                                                        **
+               l=t=arspand    54.308    0.000     0.000     0.000                                             *                           *           **
+
+Input      Candidate  Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                             50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=al=vad  al=le=vad   4.976    0.007     0.388     1.000                                                                         **                     *
+           al=al=vad   6.924    0.001     0.055     0.000                                                                        ***
+           al=l=vad   54.616    0.000     0.000     0.000                                             *                           **
+           l=le=vad   52.668    0.000     0.000     0.000                                             *                           *                      *
+           l=al=vad    4.616    0.010     0.556     0.000                                                                         **
+           am=le=vad  50.360    0.000     0.000     0.000      *                                                                                         *
+
+Input        Candidate   Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                                50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=m=al=da   am=al={da    2.308    0.099     0.921     1.000                                                                         *
+            al=m=al=da    6.924    0.001     0.009     0.000                                                                        ***
+            al=um=al=da   7.284    0.001     0.006     0.000                                                                        ***                     *
+            l=um=al=da    4.976    0.007     0.064     0.000                                                                         **                     *
+
+Input      Candidate   Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                              50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=m=al=a   am=[{l=a    1.000    0.368     0.929     1.000                                                                                     *
+           al=m={l=a   55.616    0.000     0.000     0.000                                             *                           **          *
+           al=um={l=a   5.976    0.003     0.006     0.000                                                                         **          *          *
+           l=um={l=a    3.668    0.026     0.064     0.000                                                                         *           *          *
+           am=a.[{l=a  53.308    0.000     0.000     0.000                             *                                           *           *
+
+Input         Candidate   Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                                 50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+(a)l=um=di:z  l=um=di:z    2.668    0.069     0.669     0.500                                                                         *                      *
+               am=di:z     3.594    0.027     0.265     0.500                                                            *
+               l=m=di:z   52.308    0.000     0.000     0.000                                             *                           *
+              al=um=di:z   4.976    0.007     0.067     0.000                                                                         **                     *
+              al=m=di:z   54.616    0.000     0.000     0.000                                             *                           **
+
+Input          Candidate    Harmony  exp(-H)  Predicted  Observed  DEP-MF  Onset-PWd  CrispEdge(PWd)  *[+son]Periph  *Duplex-MinPPh  Priority  *CliticInPWd   Dep
+                                                                   50.000   50.000        50.000         50.000          3.594        2.308       1.000      0.360
+al=al=abraTa  al=l=abraTa    5.616    0.004     1.000     1.000                                                                         **          *
+              al=al=abraTa  57.924    0.000     0.000     0.000                             *                                          ***          *
+              at=al=abraTa  103.308   0.000     0.000     0.000      *                      *                                           *           *
+              l=al=abraTa   55.616    0.000     0.000     0.000                             *                                           **          *
+               l=l=abraTa   54.308    0.000     0.000     0.000                                             *                           *           **
+
+Learning time:  0.066 minutes
+
+

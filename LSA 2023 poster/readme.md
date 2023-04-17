@@ -2,8 +2,8 @@
 
 Here you can find files my 2023 LSA poster.  Contents:
 
-dutch_withHB.xlsx: OTSoft file for the full analysis
+1. dutch_withHB.xlsx: OTSoft file for the full analysis
 
-dutch_no_projectFt.xlsx: OTSoft file with PROJ(V,μ)/Ft removed
+2. dutch_no_projectFt.xlsx: OTSoft file with PROJ(V,μ)/Ft removed
 
-dutch_LSA2023Poster.pdf: the poster itself
+3. dutch_LSA2023Poster.pdf: the poster itself
